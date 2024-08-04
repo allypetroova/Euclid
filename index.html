@@ -10,8 +10,8 @@
 <body>
   <header class="header">
     <div class="container header__container">
-      <a class="header__logo">
-        <img class="header__logo-icon" src="img/logo.svg" alt="Логотип Евклид">
+      <a class="logo">
+        <img class="logo__icon" src="img/logo.svg" alt="Логотип Евклид">
       </a>
       <div class="header__menu">
         <nav class="header__nav">
@@ -33,7 +33,7 @@
         <button class="header__search">
           <svg class="header__search-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="7.56126" height="1.89031" transform="matrix(0.713342 0.700816 -0.713342 0.700816 18.6064 17.3762)" fill="black"/>
-            <path d="M20.9303 10.7726C20.9303 16.1533 16.4855 20.5452 10.9652 20.5452C5.44478 20.5452 1 16.1533 1 10.7726C1 5.39198 5.44478 1 10.9652 1C16.4855 1 20.9303 5.39198 20.9303 10.7726Z" stroke="black" stroke-width="2"/>
+            <path d="M20.9303 10.7726C20.9303 16.1533 16.4855 20.5452 10.9652 20.5452C5.44478 20.5452 1 16.1533 1 10.7726C1 5.39198 5.44478 1 10.9652 1C16.4855 1 20.9303 5.39198 20.9303 10.7726Z" stroke-width="2"/>
           </svg>
         </button>
       </div>
@@ -56,7 +56,7 @@
 
     <section class="about" id="about">
       <div class="container">
-        <h2 class="about__title">О&nbsp;нас</h2>
+        <h2 class="about__title section__title">О&nbsp;нас</h2>
         <p class="about__text">
           Также как перспективное планирование создаёт необходимость включения в&nbsp;производственный план целого ряда внеочередных мероприятий с&nbsp;учётом комплекса экспериментов, поражающих по&nbsp;своей масштабности и&nbsp;грандиозности. А&nbsp;также диаграммы связей могут быть описаны максимально подробно. Мы&nbsp;вынуждены отталкиваться от&nbsp;того, что убеждённость некоторых оппонентов требует от&nbsp;нас анализа как самодостаточных, так и&nbsp;внешне зависимых концептуальных решений! Следует отметить, что высококачественный прототип будущего проекта предопределяет высокую востребованность позиций, занимаемых участниками в&nbsp;отношении поставленных задач. Мы&nbsp;вынуждены отталкиваться от&nbsp;того, что высококачественный прототип будущего проекта способствует повышению качества экспериментов.
         </p>
@@ -91,19 +91,25 @@
 
     <section class="stages" id="stages">
       <div class="container">
-        <h2 class="stages__title">Этапы</h2>
-        <div class="stages__wrapper">
+        <h2 class="stages__title section__title">Этапы</h2>
+        <div class="stages-wrapper">
+          <!--left block-->
           <div class="stages__contetnt">
             <strong class="stages__strong">Проводим консультацию</strong>
-            <p class="stages__text">
-              Влечёт за&nbsp;собой процесс внедрения и&nbsp;модернизации приоритизации разума над эмоциями. В&nbsp;рамках спецификации современных стандартов, некоторые особенности внутренней политики будут объективно рассмотрены соответствующими инстанциями.
-              А&nbsp;также представители современных социальных резервов, инициированные исключительно синтетически, ограничены исключительно образом мышления. Являясь всего лишь частью общей картины, реплицированные с&nbsp;зарубежных источников, современные исследования подвергнуты целой серии независимых исследований. Кстати, стремящиеся вытеснить традиционное производство, нанотехнологии освещают чрезвычайно интересные особенности картины в&nbsp;целом, однако конкретные выводы, разумеется, призваны к&nbsp;ответу.
-            </p>
+            <div class="stages__text">
+              <p class="stages__paragraph">
+                Влечёт за&nbsp;собой процесс внедрения и&nbsp;модернизации приоритизации разума над эмоциями. В&nbsp;рамках спецификации современных стандартов, некоторые особенности внутренней политики будут объективно рассмотрены соответствующими инстанциями.
+              </p>
+              <p class="stages__paragraph">
+                А&nbsp;также представители современных социальных резервов, инициированные исключительно синтетически, ограничены исключительно образом мышления. Являясь всего лишь частью общей картины, реплицированные с&nbsp;зарубежных источников, современные исследования подвергнуты целой серии независимых исследований. Кстати, стремящиеся вытеснить традиционное производство, нанотехнологии освещают чрезвычайно интересные особенности картины в&nbsp;целом, однако конкретные выводы, разумеется, призваны к&nbsp;ответу.
+              </p>
+            </div>
             <div class="stages__buttons">
               <a class="stages__link" href="#">Подробнее</a>
               <button class="stages__btn">Договор</button>
             </div>
           </div>
+          <!--right block-->
           <img class="stages__img" src="img/stages.jpg" alt="Фото рабочего стола">
         </div>
       </div>
@@ -111,7 +117,7 @@
 
     <section class="questions" id="questions">
       <div class="container">
-        <h2 class="questions__title">Вопросы</h2>
+        <h2 class="questions__title section__title">Вопросы</h2>
         <ul class="questions__list list-resert">
           <li class="questions__item">
             <h3 class="questions__question">Из&nbsp;чего формируется конечная стоимость проекта?</h3>
@@ -141,8 +147,8 @@
     <div class="container footer__container">
       <!--menu-->
       <div class="footer__menu">
-        <a class="footer__logo">
-          <img class="footer__logo-icon" src="img/logo-dark.svg" alt="Логотип Евклид">
+        <a class="footer__logo logo">
+          <img class="logo__icon" src="img/logo-dark.svg" alt="Логотип Евклид">
         </a>
         <nav class="footer__nav">
           <ul class="footer__list list-resert">
@@ -187,9 +193,11 @@
       <div class="footer__application">
         <h2 class="footer__title">Оставить заявку</h2>
         <form class="footer__form" action="https://jsonplaceholder.typicode.com/posts" method="post">
-          <input class="footer__form-input" type="text" name="name" placeholder="Фамилия, имя и&nbsp;отчество*">
-          <input class="footer__form-input" type="email" name="email" placeholder="Email*">
-          <textarea class="footer__form-input       footer__form-textarea" name="message" rows="4" placeholder="Сообщение"></textarea>
+          <div class="footer__form-fields">
+            <input class="footer__form-input" type="text" name="name" placeholder="Фамилия, имя и&nbsp;отчество*">
+            <input class="footer__form-input" type="email" name="email" placeholder="Email*">
+            <textarea class="footer__form-input footer__form-textarea" name="message" rows="4" placeholder="Сообщение"></textarea>
+          </div>
           <div class="footer__form-bottom">
             <button class="footer__form-btn" type="submit">Отправить данные</button>
             <input class="footer__form-check" type="checkbox">
