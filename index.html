@@ -6,13 +6,18 @@
   <title>Евклид - проектные системы</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
   <link rel="icon" href="img/favicon.png" type="image/png">
 </head>
 <body>
   <header class="header">
     <div class="container header__container">
       <a class="logo">
-        <img class="logo__icon" src="img/logo.svg" alt="Логотип Евклид">
+        <picture class="logo__icon">
+          <source media="(max-width: 992px)" srcset="img/logo-mobile.svg">
+          <source media="(max-width: 1200px)" srcset="img/logo-tablet.svg">
+          <img  src="img/logo.svg" alt="Логотип Евклид">
+        </picture>
       </a>
       <nav class="header__nav">
         <ul class="header__list list-resert">
@@ -94,12 +99,15 @@
         <div class="stages-wrapper">
           <div class="stages__contetnt">
             <h3 class="stages__strong">Проводим консультацию</h3>
-            <p class="stages__paragraph">
+            <div class="stages__paragraphs">
+              <p class="stages__paragraph">
               Влечёт за&nbsp;собой процесс внедрения и&nbsp;модернизации приоритизации разума над эмоциями. В&nbsp;рамках спецификации современных стандартов, некоторые особенности внутренней политики будут объективно рассмотрены соответствующими инстанциями.
             </p>
             <p class="stages__paragraph stages__paragraph--big">
               А&nbsp;также представители современных социальных резервов, инициированные исключительно синтетически, ограничены исключительно образом мышления. Являясь всего лишь частью общей картины, реплицированные с&nbsp;зарубежных источников, современные исследования подвергнуты целой серии независимых исследований. Кстати, стремящиеся вытеснить традиционное производство, нанотехнологии освещают чрезвычайно интересные особенности картины в&nbsp;целом, однако конкретные выводы, разумеется, призваны к&nbsp;ответу.
             </p>
+            </div>
+
             <div class="stages__buttons">
               <a class="stages__more" href="#">Подробнее</a>
               <a class="stages__contract" href="#">Договор</a>
@@ -142,7 +150,10 @@
       <!--menu-->
       <div class="footer__menu">
         <a class="footer__logo logo">
-          <img class="logo__icon" src="img/logo-dark.svg" alt="Логотип Евклид">
+          <picture class="logo__icon">
+            <source media="(max-width: 576px)" srcset="img/logo-dark--mobile.svg">
+            <img src="img/logo-dark.svg" alt="Логотип Евклид">
+          </picture>
         </a>
         <ul class="footer__list list-resert">
           <li class="footer__item">
