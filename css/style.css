@@ -609,33 +609,33 @@ img{
   display: flex;
 }
 
-.social{
+.footer__social{
  margin-right: 25px;
 }
 
-.social:last-child{
+.footer__social:last-child{
   margin-right: 0;
 }
 
-.social__link {
+.footer__social-link {
   outline: none;
 }
 
-.social__icon {
+.footer__social-icon {
   fill: var(--ui-gray);
 }
 
-.social__link:focus-visible .social__icon{
+.footer__social-link:focus-visible .footer__social-icon{
   fill: var(--ui-gray);
   outline: 2px solid var(--ui-orange);
   outline-offset: 5px;
 }
 
-.social__icon:hover{
+.footer__social-icon:hover{
   fill: var(--ui-orange);
 }
 
-.social__icon:active{
+.footer__social-icon:active{
   fill: var(--ui-orange-dark);
 }
 
